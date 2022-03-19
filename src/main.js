@@ -4,7 +4,7 @@ import Vue from 'vue'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import App from './App.vue'
-// import router from './router'
+import router from './router'
 
 Vue.use(ElementUI)
 Vue.config.productionTip = true
@@ -14,5 +14,6 @@ new Vue({
   el: '#app',
   render: h => h(App),
   components: { App },
-  template: '<App/>'
+  template: '<App/>',
+  router
 })
