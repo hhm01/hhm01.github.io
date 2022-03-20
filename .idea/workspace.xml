@@ -2,31 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2e51ff0-720a-4ffe-ae1f-3c78e1feeea7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/home/btn_AVG游戏.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/home/btn_AVG游玩.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/home/btn_RPG下载.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/home/btn_RPG游戏.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/home/btn_切换箭头.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/home/img_AVG游戏.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/home/img_RPG游戏.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/home/img_实机展示.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/home/img_封面图.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/home/img_底图拉伸自适应.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/home/img_底部栏底.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/home/img_截图底图.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/home/img_游戏PV.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/home/img_游戏截图.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/home/img_视频位置.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/menu/img_封面拉伸底图.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/menu/img_顶部栏底.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/js/app.5306f3b33df5a9bb3c7b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/js/app.5306f3b33df5a9bb3c7b.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/js/manifest.256d41ca440698d14489.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/static/js/manifest.256d41ca440698d14489.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/intro.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/intro.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +71,7 @@
       <workItem from="1647670437599" duration="480000" />
       <workItem from="1647671001591" duration="537000" />
       <workItem from="1647680150212" duration="2535000" />
-      <workItem from="1647774397422" duration="18486000" />
+      <workItem from="1647774397422" duration="19243000" />
     </task>
     <servers />
   </component>
