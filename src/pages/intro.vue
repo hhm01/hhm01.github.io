@@ -1,5 +1,5 @@
 <template>
-  <el-container class="whole_page">
+  <el-container class="page">
     <el-main>
       <el-tabs tab-position="left" class="character_tab">
         <el-tab-pane>
@@ -42,11 +42,6 @@ export default {
 </script>
 
 <style>
-.whole_page {
-  width: 30cm;
-  text-align: center;
-}
-
 .character_page {
   height: 20cm;
 }

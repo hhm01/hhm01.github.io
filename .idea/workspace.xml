@@ -2,14 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2e51ff0-720a-4ffe-ae1f-3c78e1feeea7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/home.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/intro.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/home/btn_AVG游戏.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/home/btn_AVG游玩.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/home/btn_RPG下载.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/home/btn_RPG游戏.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/home/btn_切换箭头.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/home/img_AVG游戏.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/home/img_RPG游戏.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/home/img_实机展示.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/home/img_封面图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/home/img_底图拉伸自适应.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/home/img_底部栏底.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/home/img_截图底图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/home/img_游戏PV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/home/img_游戏截图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/home/img_视频位置.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/menu/img_封面拉伸底图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/menu/img_顶部栏底.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/js/app.5306f3b33df5a9bb3c7b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/js/app.5306f3b33df5a9bb3c7b.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/js/manifest.256d41ca440698d14489.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/static/js/manifest.256d41ca440698d14489.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/intro.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/intro.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +35,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -35,13 +60,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/home" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\vue_project\hhm01.github.io\src\assets\home" />
+      <recent name="E:\vue_project\hhm01.github.io\src\assets\menu" />
       <recent name="E:\vue_project\hhm01.github.io\src\assets" />
     </key>
   </component>
@@ -65,7 +92,10 @@
       <updated>1647577158673</updated>
       <workItem from="1647577160991" duration="3000" />
       <workItem from="1647598045894" duration="13442000" />
-      <workItem from="1647670437599" duration="312000" />
+      <workItem from="1647670437599" duration="480000" />
+      <workItem from="1647671001591" duration="537000" />
+      <workItem from="1647680150212" duration="2535000" />
+      <workItem from="1647774397422" duration="18486000" />
     </task>
     <servers />
   </component>
