@@ -29,30 +29,37 @@
       <el-row style="margin-top: 2%;">
         <img src="./home/img_实机展示.png" class="home_img_1">
       </el-row>
-      <el-row type="flex" justify="center">
+      <el-row type="flex" justify="center" :class="show">
         <el-col :span="8">
-          <el-button class="small_button_1">
+          <el-button class="small_button_1" @click="show_avg_pic">
 
           </el-button>
         </el-col>
         <el-col :span="8">
-          <el-button class="small_button_2">
+          <el-button class="small_button_2" @click="show_rpg_pic">
 
           </el-button>
         </el-col>
       </el-row>
-      <el-row class="screenshot_base" type="flex" justify="center" align="center">
+      <el-row class="screenshot_base" type="flex" justify="center" align="center" :class="show">
         <el-col :span="2">
           <el-button class="select_button select_button_1">
           </el-button>
         </el-col>
         <el-col :span="18">
-          <img src="./home/img_游戏截图.png" class="home_img_3">
+          <img :src="pic_rpg" class="home_img_3">
         </el-col>
         <el-col :span="2">
           <el-button class="select_button">
           </el-button>
         </el-col>
+      </el-row>
+      <el-row style="width: 70%; margin: auto;">
+        <el-carousel type="card">
+          <el-carousel-item v-for="pic in screenshot_avg" :key="pic">
+            <img :src="pic.src" class="home_img_3">
+          </el-carousel-item>
+        </el-carousel>
       </el-row>
     </el-main>
     <el-footer class="page_home_footer" height="auto">
@@ -72,16 +79,47 @@
 <script>
 export default {
   methods: {
-
+    show_avg_pic: function () {
+      this.show = 'show_avg'
+    },
+    show_rpg_pic: function () {
+      this.show = 'show_rpg'
+    }
   },
   data () {
     return {
       home_intro_text: 'PV简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介',
       authorization_text: '这是授权信息。',
-      pic_avg: {
-        0: './home/img_游戏截图.png',
-        1: './home/img_视频位置.png'
-      }
+      pic_rpg: require('./home/img_游戏截图.png'),
+      show: 'show_avg',
+      screenshot_avg: [
+        {
+          src: require('./home/img_avg_1.jpg')
+        },
+        {
+          src: require('./home/img_avg_2.jpg')
+        },
+        {
+          src: require('./home/img_avg_3.jpg')
+        },
+        {
+          src: require('./home/img_avg_4.jpg')
+        },
+        {
+          src: require('./home/img_avg_5.jpg')
+        },
+        {
+          src: require('./home/img_avg_6.jpg')
+        },
+        {
+          src: require('./home/img_avg_7.jpg')
+        }
+      ],
+      screenshot_rpg: [
+        {
+          src: require('./home/img_游戏截图.png')
+        }
+      ]
     }
   }
 }
@@ -187,7 +225,7 @@ export default {
   border: 0;
 }
 
-.small_button_1:hover, .small_button_1:active, .small_button_1:focus {
+.small_button_1:hover, .small_button_1:active, .small_button_1:focus, .show_avg .small_button_1 {
   background-image: url("./home/btn_AVG游戏.png");
   background-color: transparent;
   border: 0;
@@ -204,7 +242,7 @@ export default {
   border: 0;
 }
 
-.small_button_2:hover, .small_button_2:active, .small_button_2:focus {
+.small_button_2:hover, .small_button_2:active, .small_button_2:focus, .show_rpg .small_button_2 {
   background-image: url("./home/btn_RPG游戏.png");
   background-color: transparent;
   border: 0;

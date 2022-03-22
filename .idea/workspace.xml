@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2e51ff0-720a-4ffe-ae1f-3c78e1feeea7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/img_avg_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/img_avg_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/img_avg_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/img_avg_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/img_avg_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/img_avg_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/img_avg_7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,13 +44,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/menu" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages/home" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\vue_project\hhm01.github.io\src\pages\home" />
       <recent name="E:\vue_project\hhm01.github.io\src\assets\menu" />
       <recent name="E:\vue_project\hhm01.github.io\src\pages" />
       <recent name="E:\vue_project\hhm01.github.io\src\assets\home" />
@@ -75,6 +84,7 @@
       <workItem from="1647774397422" duration="19846000" />
       <workItem from="1647837905121" duration="435000" />
       <workItem from="1647860238243" duration="15205000" />
+      <workItem from="1647922539353" duration="1920000" />
     </task>
     <servers />
   </component>
