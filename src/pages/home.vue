@@ -207,13 +207,13 @@ export default {
 .intro_text {
   width: 80%;
   margin: auto;
-  font-size: 2vw;
+  font-size: 26px;
   color: #ffffff;
   font-family: '宋体';
 }
 
 .auth_text {
-  font-size: 2vw;
+  font-size: 26px;
   font-family: '宋体';
   color: #ffffff;
   margin: 20px 0;

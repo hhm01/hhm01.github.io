@@ -121,7 +121,7 @@ body {
   margin: 1px 0;
   background: transparent;
   color: #ffffff;
-  font-size: 1.2vh;
+  font-size: 26px;
   padding: 0;
 }
 
