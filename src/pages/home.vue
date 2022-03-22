@@ -41,7 +41,7 @@
           </el-button>
         </el-col>
       </el-row>
-      <el-row class="screenshot_base" type="flex" justify="center" align="center" :class="show">
+      <el-row class="screenshot_base" type="flex" justify="center" align="center" :class="show" style="display: none">
         <el-col :span="2">
           <el-button class="select_button select_button_1">
           </el-button>
