@@ -55,7 +55,7 @@
         </el-col>
       </el-row>
       <el-row style="width: 70%; margin: auto;">
-        <el-carousel type="card" v-if="show === 'show_avg'">
+        <el-carousel type="card" interval="100000" v-if="show === 'show_avg'">
           <el-carousel-item v-for="pic in screenshot_avg" :key="pic">
             <img :src="pic.src" class="home_img_3">
           </el-carousel-item>
@@ -201,7 +201,6 @@ export default {
 
 .home_img_3 {
   width: 100%;
-
 }
 
 .intro_text {
@@ -259,7 +258,9 @@ export default {
   background-repeat: no-repeat;
   background-position: center;
   width: 70%;
-  margin: 2.5% auto 5% auto;
+}
+
+.el-carousel__container {
 }
 
 .select_button {

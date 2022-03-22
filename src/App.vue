@@ -7,11 +7,11 @@
       <el-menu default-active="home" class="menu" :class="page" mode="horizontal" active-text-color="#ff0" router=true @select="select_page">
         <el-row class="header_menu">
           <el-col :span="5"><div class="contents_1 home_group_info" disabled="true">鸽已永治制作组</div></el-col>
-          <el-col :span="3"><el-menu-item class="contents btn_home" index="home" route="/"></el-menu-item></el-col>
-          <el-col :span="3"><el-menu-item class="contents btn_intro" index="intro" route="/intro"></el-menu-item></el-col>
-          <el-col :span="3"><el-menu-item class="contents btn_work" index="work" route="/work"></el-menu-item></el-col>
-          <el-col :span="3"><el-menu-item class="contents btn_staff" index="staff" route="/staff"></el-menu-item></el-col>
-          <el-col :span="3"><el-menu-item class="contents btn_QA" index="QA" route="/QA"></el-menu-item></el-col>
+          <el-col :span="3"><el-menu-item class="contents btn_home" index="home" route="/">首页</el-menu-item></el-col>
+          <el-col :span="3"><el-menu-item class="contents btn_intro" index="intro" route="/intro">人物简介</el-menu-item></el-col>
+          <el-col :span="3"><el-menu-item class="contents btn_work" index="work" route="/work">攻略集锦</el-menu-item></el-col>
+          <el-col :span="3"><el-menu-item class="contents btn_staff" index="staff" route="/staff">STAFF</el-menu-item></el-col>
+          <el-col :span="3"><el-menu-item class="contents btn_QA" index="QA" route="/QA">Q&A</el-menu-item></el-col>
         </el-row>
       </el-menu>
     </el-row>
@@ -78,58 +78,65 @@ body {
   font-family: '宋体';
   white-space: nowrap;
   text-align: left;
-  opacity: 0.8;
 }
 
 .btn_home {
-  background-image: url("./assets/menu/btn_首页.png");
+
 }
 
 .btn_home:hover, .home .btn_home {
-  background-image: url("./assets/menu/img_首页.png");
+
 }
 
 .btn_intro {
-  background-image: url("./assets/menu/btn_人物简介.png");
+
 }
 
 .btn_intro:hover, .intro .btn_intro {
-  background-image: url("./assets/menu/img_人物简介.png");
+
 }
 
 .btn_work {
-  background-image: url("./assets/menu/btn_攻略集锦.png");
+
 }
 
 .btn_work:hover, .work .btn_work {
-  background-image: url("./assets/menu/img_攻略集锦.png");
+
 }
 
 .btn_staff {
-  background-image: url("./assets/menu/btn_staff.png");
+
 }
 
 .btn_staff:hover, .staff .btn_staff {
-  background-image: url("./assets/menu/img_staff.png");
+
 }
 
 .btn_QA {
-  background-image: url("./assets/menu/btn_qa.png");
+
 }
 
 .btn_QA:hover, .QA .btn_QA {
-  background-image: url("./assets/menu/img_qa.png");
+
 }
 
 .contents, .contents_1 {
-  margin: 1px 5px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  margin: 1px 0;
+  background: transparent;
+  color: #ffffff;
+  font-size: 2vw;
+  padding: 0;
 }
 
-.contents:hover, .contents:focus {
+.contents:hover, .contents:focus,
+.QA .btn_QA,
+.staff .btn_staff,
+.work .btn_work,
+.intro .btn_intro,
+.home .btn_home {
   background-color: transparent;
+  color: #ffffff!important;
+  text-shadow: 0 0 10px #ffff00;
 }
 
 .contents_1 {
@@ -140,12 +147,6 @@ body {
   width: inherit;
   border-bottom: 0 !important;
   background: transparent;
-}
-
-.button_small {
-  width: 90%;
-  font-size: 12pt;
-  height: 1cm;
 }
 
 </style>
