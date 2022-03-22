@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2e51ff0-720a-4ffe-ae1f-3c78e1feeea7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pages/home/20220322_121356.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/白情预热~1.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/css/app.f35cbe4ae4965abe5c939918d3798257.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/css/app.f35cbe4ae4965abe5c939918d3798257.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/img/img_视频位置.45d74e7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/js/0.63132b697ecb3830be25.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/js/0.63132b697ecb3830be25.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/js/manifest.adb530cdff34be3614c5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/js/manifest.adb530cdff34be3614c5.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +89,7 @@
       <workItem from="1647860238243" duration="15205000" />
       <workItem from="1647922539353" duration="2786000" />
       <workItem from="1647925352135" duration="73000" />
-      <workItem from="1647959350368" duration="6935000" />
+      <workItem from="1647959350368" duration="8456000" />
     </task>
     <servers />
   </component>

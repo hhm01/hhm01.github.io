@@ -19,7 +19,9 @@
         <img src="./home/img_游戏PV.png" class="home_img_1">
       </el-row>
       <el-row>
-        <img src="./home/img_视频位置.png" class="home_img_2">
+        <video controls class="home_PV">
+          <source :src="home_PV" type="video/mp4">
+        </video>
       </el-row>
       <el-row>
         <div class="intro_text">
@@ -55,12 +57,12 @@
         </el-col>
       </el-row>
       <el-row style="width: 70%; margin: auto;">
-        <el-carousel type="card" interval="100000" height="20vw" v-if="show === 'show_avg'">
+        <el-carousel type="card" interval="5000" height="20vw" v-if="show === 'show_avg'">
           <el-carousel-item v-for="pic in screenshot_avg" :key="pic">
             <img :src="pic.src" class="home_img_3">
           </el-carousel-item>
         </el-carousel>
-        <el-carousel type="card" interval="100000" height="20vw" v-if="show === 'show_rpg'">
+        <el-carousel type="card" interval="5000" height="20vw" v-if="show === 'show_rpg'">
           <el-carousel-item v-for="pic in screenshot_rpg" :key="pic">
             <img :src="pic.src" class="home_img_3">
           </el-carousel-item>
@@ -95,7 +97,7 @@ export default {
     return {
       home_intro_text: 'PV简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介',
       authorization_text: '这是授权信息。',
-      pic_rpg: require('./home/img_游戏截图.png'),
+      home_PV: require('./home/白情预热~1.mp4'),
       show: 'show_avg',
       screenshot_avg: [
         {
@@ -194,7 +196,7 @@ export default {
   margin-bottom: 2%;
 }
 
-.home_img_2 {
+.home_PV {
   width: 60%;
   margin-bottom: 2%;
 }
@@ -217,6 +219,7 @@ export default {
   font-family: '宋体';
   color: #ffffff;
   margin: 20px 0;
+  padding: 0;
 }
 
 .small_button_1 {
