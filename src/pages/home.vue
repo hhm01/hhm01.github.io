@@ -55,12 +55,12 @@
         </el-col>
       </el-row>
       <el-row style="width: 70%; margin: auto;">
-        <el-carousel type="card" interval="100000" v-if="show === 'show_avg'">
+        <el-carousel type="card" interval="100000" height="20vw" v-if="show === 'show_avg'">
           <el-carousel-item v-for="pic in screenshot_avg" :key="pic">
             <img :src="pic.src" class="home_img_3">
           </el-carousel-item>
         </el-carousel>
-        <el-carousel type="card" v-if="show === 'show_rpg'">
+        <el-carousel type="card" interval="100000" height="20vw" v-if="show === 'show_rpg'">
           <el-carousel-item v-for="pic in screenshot_rpg" :key="pic">
             <img :src="pic.src" class="home_img_3">
           </el-carousel-item>
@@ -201,18 +201,19 @@ export default {
 
 .home_img_3 {
   width: 100%;
+  height: 100%;
 }
 
 .intro_text {
   width: 80%;
   margin: auto;
-  font-size: 26px;
+  font-size: 2vw;
   color: #ffffff;
   font-family: '宋体';
 }
 
 .auth_text {
-  font-size: 26px;
+  font-size: 2vw;
   font-family: '宋体';
   color: #ffffff;
   margin: 20px 0;
@@ -261,6 +262,7 @@ export default {
 }
 
 .el-carousel__container {
+
 }
 
 .select_button {

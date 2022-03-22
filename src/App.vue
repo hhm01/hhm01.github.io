@@ -73,9 +73,6 @@ body {
 .home_group_info {
   height: 56px;
   line-height: 56px;
-  font-size: 18pt;
-  color: #ffffff;
-  font-family: '宋体';
   white-space: nowrap;
   text-align: left;
 }
@@ -124,7 +121,7 @@ body {
   margin: 1px 0;
   background: transparent;
   color: #ffffff;
-  font-size: 2vw;
+  font-size: 1.2vh;
   padding: 0;
 }
 
