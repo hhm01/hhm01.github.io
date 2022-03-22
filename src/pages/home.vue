@@ -55,8 +55,13 @@
         </el-col>
       </el-row>
       <el-row style="width: 70%; margin: auto;">
-        <el-carousel type="card">
+        <el-carousel type="card" v-if="show === 'show_avg'">
           <el-carousel-item v-for="pic in screenshot_avg" :key="pic">
+            <img :src="pic.src" class="home_img_3">
+          </el-carousel-item>
+        </el-carousel>
+        <el-carousel type="card" v-if="show === 'show_rpg'">
+          <el-carousel-item v-for="pic in screenshot_rpg" :key="pic">
             <img :src="pic.src" class="home_img_3">
           </el-carousel-item>
         </el-carousel>
@@ -107,17 +112,17 @@ export default {
         },
         {
           src: require('./home/img_avg_5.jpg')
+        }
+      ],
+      screenshot_rpg: [
+        {
+          src: require('./home/img_游戏截图.png')
         },
         {
           src: require('./home/img_avg_6.jpg')
         },
         {
           src: require('./home/img_avg_7.jpg')
-        }
-      ],
-      screenshot_rpg: [
-        {
-          src: require('./home/img_游戏截图.png')
         }
       ]
     }
