@@ -56,17 +56,27 @@
           </el-button>
         </el-col>
       </el-row>
-      <el-row style="width: 70%; margin: auto;">
-        <el-carousel autoplay="false" arrow="never" indicator-position="none" height="20vw" v-if="show === 'show_avg'">
-          <el-carousel-item v-for="pic in screenshot_avg" :key="pic">
-            <img :src="pic.src" class="home_img_3">
-          </el-carousel-item>
-        </el-carousel>
-        <el-carousel type="card" interval="5000" height="20vw" v-if="show === 'show_rpg'">
-          <el-carousel-item v-for="pic in screenshot_rpg" :key="pic">
-            <img :src="pic.src" class="home_img_3">
-          </el-carousel-item>
-        </el-carousel>
+      <el-row class="home_carousel">
+        <el-col :span="2">
+          <el-button class="select_button select_button_1" :style="'height: '+carousel_height+'px'" @click="arrow_click('left')">
+          </el-button>
+        </el-col>
+        <el-col :span="20">
+          <el-carousel ref="carousel_avg" arrow="never" indicator-position="none" :height="carousel_height+'px'" v-if="show === 'show_avg'">
+            <el-carousel-item v-for="pic in screenshot_avg" :key="pic">
+              <img ref="carousel_img" :src="pic.src" class="home_img_3" @load="img_load" @change="img_load">
+            </el-carousel-item>
+          </el-carousel>
+          <el-carousel ref="carousel_rpg" arrow="never" indicator-position="none" :height="carousel_height+'px'" v-if="show === 'show_rpg'">
+            <el-carousel-item v-for="pic in screenshot_rpg" :key="pic">
+              <img ref="carousel_img" :src="pic.src" class="home_img_3">
+            </el-carousel-item>
+          </el-carousel>
+        </el-col>
+        <el-col :span="2">
+          <el-button class="select_button" :style="'height: '+carousel_height+'px'" @click="arrow_click('right')">
+          </el-button>
+        </el-col>
       </el-row>
     </el-main>
     <el-footer class="page_home_footer" height="auto">
@@ -91,6 +101,26 @@ export default {
     },
     show_rpg_pic: function () {
       this.show = 'show_rpg'
+    },
+    img_load () {
+      this.$nextTick(() => {
+        this.carousel_height = this.$refs.carousel_img && this.$refs.carousel_img ? this.$refs.carousel_img[0].height : ''
+      })
+    },
+    arrow_click (val) {
+      if (this.show === 'show_avg') {
+        if (val === 'left') {
+          this.$refs.carousel_avg.prev()
+        } else {
+          this.$refs.carousel_avg.next()
+        }
+      } else if (this.show === 'show_rpg') {
+        if (val === 'left') {
+          this.$refs.carousel_rpg.prev()
+        } else {
+          this.$refs.carousel_rpg.next()
+        }
+      }
     }
   },
   data () {
@@ -101,34 +131,58 @@ export default {
       authorization_text: '这是授权信息。',
       home_PV: require('./home/白情预热~1.mp4'),
       show: 'show_avg',
+      carousel_height: '',
+      screen_width: document.body.clientWidth,
       screenshot_avg: [
         {
-          src: require('./home/img_avg_1.jpg')
+          src: require('./home/img_avg_1.png')
         },
         {
-          src: require('./home/img_avg_2.jpg')
+          src: require('./home/img_avg_2.png')
         },
         {
-          src: require('./home/img_avg_3.jpg')
+          src: require('./home/img_avg_3.png')
         },
         {
-          src: require('./home/img_avg_4.jpg')
+          src: require('./home/img_avg_4.png')
         },
         {
-          src: require('./home/img_avg_5.jpg')
+          src: require('./home/img_avg_5.png')
         }
       ],
       screenshot_rpg: [
         {
-          src: require('./home/img_游戏截图.png')
+          src: require('./home/img_rpg_1.png')
         },
         {
-          src: require('./home/img_avg_6.jpg')
+          src: require('./home/img_rpg_2.png')
         },
         {
-          src: require('./home/img_avg_7.jpg')
+          src: require('./home/img_rpg_3.png')
+        },
+        {
+          src: require('./home/img_rpg_4.png')
+        },
+        {
+          src: require('./home/img_rpg_5.png')
         }
       ]
+    }
+  },
+  watch: {
+    carousel_height: {
+      immediate: true,
+      handler: function (newVal) {
+        console.log(newVal)
+      }
+    }
+  },
+  mounted () {
+    const that = this
+    window.onresize = function () {
+      return (() => {
+        that.img_load()
+      })()
     }
   }
 }
@@ -205,7 +259,6 @@ export default {
 
 .home_img_3 {
   width: 100%;
-  height: 100%;
 }
 
 .intro_text {
@@ -271,15 +324,14 @@ export default {
 }
 
 .select_button {
-  margin: 180% 0;
-  padding: 100% 0 50% 0;
   width: 80%;
   background-image: url("./home/btn_切换箭头.png");
-  background-size: 100%;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: left;
   background-color: transparent;
   border: 0;
+  padding: 0;
 }
 
 .select_button:focus, .select_button:active {
@@ -287,12 +339,21 @@ export default {
 }
 
 .select_button:hover {
-  width: 84%;
+  width: 90%;
   background-color: transparent;
 }
 
 .select_button_1 {
   transform: rotate(180deg);
+}
+
+.home_carousel {
+  width: 70%;
+  margin: 20px auto 20px auto;
+  background-image: url("./home/img_截图底图.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 </style>
