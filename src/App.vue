@@ -60,6 +60,7 @@ body {
 .header_page {
   background-image: url("./assets/menu/img_顶部栏底.png");
   background-size: contain;
+  background-repeat: repeat-x;
   padding: 0!important;
   position: absolute;
   top: 0;
@@ -68,21 +69,23 @@ body {
   margin: auto;
   width: 100%;
   max-width: 1920px;
+  height: 5vw;
 }
 
 .home_group_info {
-  height: 56px;
-  line-height: 56px;
   white-space: nowrap;
   text-align: left;
 }
 
 .contents, .contents_1 {
-  margin: 1px 0;
+  margin: 0;
   background: transparent;
   color: #ffffff;
-  font-size: 2rem;
+  font-size: 2vw;
   padding: 0;
+  height: 5vw;
+  line-height: 5vw;
+  overflow: hidden;
 }
 
 .contents:hover, .contents:focus,
@@ -102,8 +105,13 @@ body {
 
 .menu {
   width: inherit;
+  height: 100%;
   border-bottom: 0 !important;
   background: transparent;
+}
+
+.header_menu {
+  height: 100%;
 }
 
 </style>
