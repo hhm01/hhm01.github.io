@@ -57,7 +57,7 @@
         </el-col>
       </el-row>
       <el-row style="width: 70%; margin: auto;">
-        <el-carousel type="card" interval="5000" height="20vw" v-if="show === 'show_avg'">
+        <el-carousel autoplay="false" arrow="never" indicator-position="none" height="20vw" v-if="show === 'show_avg'">
           <el-carousel-item v-for="pic in screenshot_avg" :key="pic">
             <img :src="pic.src" class="home_img_3">
           </el-carousel-item>
@@ -95,7 +95,9 @@ export default {
   },
   data () {
     return {
-      home_intro_text: 'PV简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介',
+      home_intro_text: '游戏简介：' +
+        '「你」是提瓦特学院的三年级学生。在你平静的校园生活中，有性格迥异的友人、博学多识的教授，以及即将杀来的期末考—— \n' +
+        ' 然而，一场突如其来的意外打碎了平和的假象。当你费尽心力解决完这些棘手的事件后，才发现这一切仅仅只是个开端…… ',
       authorization_text: '这是授权信息。',
       home_PV: require('./home/白情预热~1.mp4'),
       show: 'show_avg',
@@ -209,13 +211,13 @@ export default {
 .intro_text {
   width: 80%;
   margin: auto;
-  font-size: 26px;
+  font-size: 2rem;
   color: #ffffff;
   font-family: '宋体';
 }
 
 .auth_text {
-  font-size: 26px;
+  font-size: 2rem;
   font-family: '宋体';
   color: #ffffff;
   margin: 20px 0;

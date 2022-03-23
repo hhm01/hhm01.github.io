@@ -77,51 +77,11 @@ body {
   text-align: left;
 }
 
-.btn_home {
-
-}
-
-.btn_home:hover, .home .btn_home {
-
-}
-
-.btn_intro {
-
-}
-
-.btn_intro:hover, .intro .btn_intro {
-
-}
-
-.btn_work {
-
-}
-
-.btn_work:hover, .work .btn_work {
-
-}
-
-.btn_staff {
-
-}
-
-.btn_staff:hover, .staff .btn_staff {
-
-}
-
-.btn_QA {
-
-}
-
-.btn_QA:hover, .QA .btn_QA {
-
-}
-
 .contents, .contents_1 {
   margin: 1px 0;
   background: transparent;
   color: #ffffff;
-  font-size: 26px;
+  font-size: 2rem;
   padding: 0;
 }
 
