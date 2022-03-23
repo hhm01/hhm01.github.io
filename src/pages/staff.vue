@@ -60,6 +60,7 @@ export default {
 
 .staff_img_1 {
   margin: 20px 0;
+  width: 35%;
 }
 
 .position_name_list {
@@ -69,14 +70,14 @@ export default {
 }
 
 .text_position {
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #beb4f1;
   font-family: '宋体';
   margin-bottom: 10px;
 }
 
 .text_name_list {
-  font-size: 30px;
+  font-size: 1.8rem;
   color: #ffffff;
   font-family: '宋体';
 }
