@@ -59,13 +59,13 @@ export default {
 }
 
 .staff_img_1 {
-  margin: 20px 0;
+  margin: 2% 0;
   width: 35%;
 }
 
 .position_name_list {
   width: 70%;
-  margin: 20px auto;
+  margin: 2% auto;
   text-align: left;
 }
 
@@ -73,7 +73,7 @@ export default {
   font-size: 1.5rem;
   color: #beb4f1;
   font-family: '宋体';
-  margin-bottom: 10px;
+  margin-bottom: 1%;
 }
 
 .text_name_list {
