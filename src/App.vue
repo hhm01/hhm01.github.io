@@ -51,7 +51,7 @@ body {
 
 .whole_page {
   background-image: url("./assets/menu/img_封面拉伸底图.png");
-  background-size: contain;
+  background-size: auto;
   background-repeat: no-repeat;
   text-align: center;
   width: 100%;

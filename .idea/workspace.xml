@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2e51ff0-720a-4ffe-ae1f-3c78e1feeea7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pages/staff.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/staff/img_bannerSTAFF.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/staff/img_制作者名单.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/staff/img_鸽子图.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,18 +43,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages/home" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages/staff" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\vue_project\hhm01.github.io\src\pages\staff" />
       <recent name="E:\vue_project\hhm01.github.io\src\pages\home" />
       <recent name="E:\vue_project\hhm01.github.io\src\assets\menu" />
       <recent name="E:\vue_project\hhm01.github.io\src\pages" />
       <recent name="E:\vue_project\hhm01.github.io\src\assets\home" />
-      <recent name="E:\vue_project\hhm01.github.io\src\assets" />
     </key>
   </component>
   <component name="RunManager">
