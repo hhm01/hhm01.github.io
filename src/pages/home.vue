@@ -23,10 +23,9 @@
           <source :src="home_PV" type="video/mp4">
         </video>
       </el-row>
-      <el-row>
-        <div class="intro_text">
-          {{ home_intro_text }}
-        </div>
+      <el-row class="intro_text">
+        <p>「你」是提瓦特学院的三年级学生。在你平静的校园生活中，有性格迥异的友人、博学多识的教授，以及即将杀来的期末考——</p>
+        <p>然而，一场突如其来的意外打碎了平和的假象。当你费尽心力解决完这些棘手的事件后，才发现这一切仅仅只是个开端……</p>
       </el-row>
       <el-row style="margin-top: 2%;">
         <img src="./home/img_实机展示.png" class="home_img_1">
@@ -80,9 +79,10 @@
       </el-row>
     </el-main>
     <el-footer class="page_home_footer" height="auto">
-      <el-row>
-        <p class="auth_text">{{ authorization_text_1 }}</p>
-        <p class="auth_text">链接：<a :href="authorization_text_2" target="_blank">{{ authorization_text_2 }}</a></p>
+      <el-row class="auth_text">
+        <p>本游戏为米哈游科技（上海）有限公司原创游戏《原神》的同人作品，所有人物归属米哈游科技（上海）有限公司。</p>
+        <p>根据《原神》官方于2021.11.24官方社区米游社发布的<a :href="authorization_link" target="_blank">《原神同人周边大陆地区正式运行指引v1.2》</a>所言</p>
+        <p>所有非商用无盈利的同人产出官方都是持有支持态度，并且无需官方专程授权。</p>
       </el-row>
     </el-footer>
   </el-container>
@@ -120,11 +120,7 @@ export default {
   },
   data () {
     return {
-      home_intro_text: '游戏简介：' +
-        '「你」是提瓦特学院的三年级学生。在你平静的校园生活中，有性格迥异的友人、博学多识的教授，以及即将杀来的期末考—— \n' +
-        ' 然而，一场突如其来的意外打碎了平和的假象。当你费尽心力解决完这些棘手的事件后，才发现这一切仅仅只是个开端…… ',
-      authorization_text_1: '根据《原神》官方于2021.11.24官方社区米游社发布的《原神同人周边大陆地区正式运行指引v1.2》所言，所有非商用无盈利的同人产出官方都是持有支持态度，并且无需官方专程授权。',
-      authorization_text_2: 'https://m.bbs.mihoyo.com/ys?channel=appstore/#/article/12304239',
+      authorization_link: 'https://m.bbs.mihoyo.com/ys?channel=appstore/#/article/12304239',
       home_PV: require('./home/白情预热~1.mp4'),
       show: 'show_avg',
       carousel_height: '',
@@ -259,16 +255,17 @@ export default {
 
 .intro_text {
   width: 80%;
-  margin: auto;
-  font-size: 2vw;
+  margin: 1% auto;
+  font-size: 1.2vw;
   color: #ffffff;
-  font-family: '宋体';
+  font-family: "宋体";
+  padding: 0;
 }
 
 .auth_text {
   width: 80%;
-  font-size: 1.5vw;
-  font-family: '宋体';
+  font-size: 0.8vw;
+  font-family: "宋体";
   color: #ffffff;
   margin: 1% auto;
   padding: 0;

@@ -2,61 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2e51ff0-720a-4ffe-ae1f-3c78e1feeea7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/assets/home/btn_AVG游戏.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/home/btn_AVG游玩.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/home/btn_RPG下载.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/home/btn_RPG游戏.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/home/btn_切换箭头.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/home/img_AVG游戏.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/home/img_RPG游戏.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/home/img_实机展示.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/home/img_封面图.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/home/img_底图拉伸自适应.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/home/img_底部栏底.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/home/img_截图底图.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/home/img_游戏PV.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/home/img_游戏截图.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/home/img_视频位置.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/menu/btn_qa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/menu/btn_staff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/menu/btn_人物简介.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/menu/btn_攻略集锦.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/menu/btn_首页.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/menu/img_qa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/menu/img_staff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/menu/img_人物简介.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/menu/img_封面拉伸底图.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/menu/img_封面拉伸底图.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/menu/img_攻略集锦.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/menu/img_顶部栏底.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/menu/img_顶部栏底.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/menu/img_首页.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/btn_AVG游戏.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/btn_AVG游戏.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/btn_AVG游玩.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/btn_AVG游玩.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/btn_RPG下载.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/btn_RPG下载.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/btn_RPG游戏.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/btn_RPG游戏.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/btn_切换箭头.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/btn_切换箭头.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/img_AVG游戏.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/img_AVG游戏.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/img_RPG游戏.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/img_RPG游戏.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/img_avg_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/img_avg_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/img_avg_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/img_avg_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/img_avg_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/img_avg_3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/img_avg_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/img_avg_4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/img_avg_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/img_avg_5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/img_rpg_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/img_rpg_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/img_rpg_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/img_rpg_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/img_rpg_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/img_rpg_3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/img_rpg_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/img_rpg_4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/img_rpg_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/img_rpg_5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/img_实机展示.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/img_实机展示.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/img_封面图.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/img_封面图.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/img_底图拉伸自适应.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/img_底图拉伸自适应.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/img_底部栏底.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/img_底部栏底.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/img_截图底图.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/img_截图底图.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/img_游戏PV.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/img_游戏PV.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/img_游戏截图.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/img_视频位置.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/staff/img_bannerSTAFF.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/staff/img_bannerSTAFF.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/staff/img_制作者名单.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/staff/img_制作者名单.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/staff/img_鸽子图.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/staff/img_鸽子图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/menu/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/intro.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/intro.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,16 +41,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project_coding/game_page" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/menu" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\vue_project\hhm01.github.io\src\assets\menu" />
       <recent name="E:\vue_project\hhm01.github.io\src\pages\staff" />
       <recent name="E:\vue_project\hhm01.github.io\src\pages\home" />
-      <recent name="E:\vue_project\hhm01.github.io\src\assets\menu" />
       <recent name="E:\vue_project\hhm01.github.io\src\pages" />
       <recent name="E:\vue_project\hhm01.github.io\src\assets\home" />
     </key>
@@ -133,7 +84,7 @@
       <workItem from="1647922539353" duration="2786000" />
       <workItem from="1647925352135" duration="73000" />
       <workItem from="1647959350368" duration="8456000" />
-      <workItem from="1648208315606" duration="3993000" />
+      <workItem from="1648208315606" duration="6278000" />
     </task>
     <servers />
   </component>

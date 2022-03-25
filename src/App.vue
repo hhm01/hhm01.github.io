@@ -6,7 +6,7 @@
     <el-row class="header_page">
       <el-menu default-active="home" class="menu" :class="page" mode="horizontal" active-text-color="#ff0" router=true @select="select_page">
         <el-row class="header_menu">
-          <el-col :span="5"><div class="contents_1 home_group_info" disabled="true">鸽已永治制作组</div></el-col>
+          <el-col :span="5"><div class="contents_1 home_group_info"></div></el-col>
           <el-col :span="3"><el-menu-item class="contents btn_home" index="home" route="/">首页</el-menu-item></el-col>
           <el-col :span="3"><el-menu-item class="contents btn_intro" index="intro" route="/intro">人物简介</el-menu-item></el-col>
           <el-col :span="3"><el-menu-item class="contents btn_work" index="work" route="/work">攻略集锦</el-menu-item></el-col>
@@ -73,13 +73,15 @@ body {
 }
 
 .home_group_info {
-  white-space: nowrap;
-  text-align: left;
+  background-image: url("./assets/menu/logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
 }
 
 .contents, .contents_1 {
   margin: 0;
-  background: transparent;
+  background-color: transparent;
   color: #ffffff;
   font-size: 2vw;
   padding: 0;
