@@ -80,11 +80,9 @@
       </el-row>
     </el-main>
     <el-footer class="page_home_footer" height="auto">
-      <el-row class="auth_text">
-        {{ authorization_text_1 }}
-      </el-row>
-      <el-row class="auth_text">
-        链接：<a :href="authorization_text_2" target="_blank">{{ authorization_text_2 }}</a>
+      <el-row>
+        <p class="auth_text">{{ authorization_text_1 }}</p>
+        <p class="auth_text">链接：<a :href="authorization_text_2" target="_blank">{{ authorization_text_2 }}</a></p>
       </el-row>
     </el-footer>
   </el-container>
@@ -269,10 +267,10 @@ export default {
 
 .auth_text {
   width: 80%;
-  font-size: 1vw;
+  font-size: 1.5vw;
   font-family: '宋体';
   color: #ffffff;
-  margin: 20px auto;
+  margin: 1% auto;
   padding: 0;
 }
 
@@ -348,7 +346,7 @@ export default {
 
 .home_carousel {
   width: 70%;
-  margin: 20px auto 20px auto;
+  margin: 2% auto 2% auto;
   background-image: url("./home/img_截图底图.png");
   background-size: contain;
   background-repeat: no-repeat;
