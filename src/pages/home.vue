@@ -81,13 +81,10 @@
     </el-main>
     <el-footer class="page_home_footer" height="auto">
       <el-row class="auth_text">
-        授权相关信息
+        {{ authorization_text_1 }}
       </el-row>
       <el-row class="auth_text">
-        授权相关信息
-      </el-row>
-      <el-row class="auth_text">
-        授权相关信息
+        链接：<a :href="authorization_text_2" target="_blank">{{ authorization_text_2 }}</a>
       </el-row>
     </el-footer>
   </el-container>
@@ -128,7 +125,8 @@ export default {
       home_intro_text: '游戏简介：' +
         '「你」是提瓦特学院的三年级学生。在你平静的校园生活中，有性格迥异的友人、博学多识的教授，以及即将杀来的期末考—— \n' +
         ' 然而，一场突如其来的意外打碎了平和的假象。当你费尽心力解决完这些棘手的事件后，才发现这一切仅仅只是个开端…… ',
-      authorization_text: '这是授权信息。',
+      authorization_text_1: '根据《原神》官方于2021.11.24官方社区米游社发布的《原神同人周边大陆地区正式运行指引v1.2》所言，所有非商用无盈利的同人产出官方都是持有支持态度，并且无需官方专程授权。',
+      authorization_text_2: 'https://m.bbs.mihoyo.com/ys?channel=appstore/#/article/12304239',
       home_PV: require('./home/白情预热~1.mp4'),
       show: 'show_avg',
       carousel_height: '',
@@ -270,10 +268,11 @@ export default {
 }
 
 .auth_text {
-  font-size: 2vw;
+  width: 80%;
+  font-size: 1vw;
   font-family: '宋体';
   color: #ffffff;
-  margin: 20px 0;
+  margin: 20px auto;
   padding: 0;
 }
 
