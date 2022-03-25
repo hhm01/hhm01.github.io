@@ -77,6 +77,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left;
+  height: 3.5vw!important;
 }
 
 .contents, .contents_1 {
