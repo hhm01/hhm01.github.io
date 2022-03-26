@@ -1,26 +1,28 @@
 <template>
-  <el-container class="page_staff" direction="vertical">
+  <el-container direction="vertical">
     <el-main class="page_staff_header">
       <img src="./staff/img_bannerSTAFF.jpg" class="staff_banner">
     </el-main>
-    <el-main class="page_staff_list">
-      <el-row>
-        <el-col>
-          <img src="./staff/img_制作者名单.png" class="staff_img_1">
-        </el-col>
-      </el-row>
-    </el-main>
-    <el-main class="position_name_list" v-for="item in staff_list" :key="item">
-      <el-row class="text_position">
-        {{ item.position }}
-      </el-row>
-      <el-row class="text_name_list">
-        {{ item.name_list }}
-      </el-row>
-    </el-main>
-    <el-main>
-      <img src="./staff/img_鸽子图.png" class="staff_img_2">
-    </el-main>
+    <el-container class="page_staff" direction="vertical">
+      <el-main class="page_staff_list">
+        <el-row>
+          <el-col>
+            <img src="./staff/img_制作者名单.png" class="staff_img_1">
+          </el-col>
+        </el-row>
+      </el-main>
+      <el-main class="position_name_list" v-for="item in staff_list" :key="item">
+        <el-row class="text_position">
+          {{ item.position }}
+        </el-row>
+        <el-row class="text_name_list">
+          {{ item.name_list }}
+        </el-row>
+      </el-main>
+      <el-main>
+        <img src="./staff/img_鸽子图.png" class="staff_img_2">
+      </el-main>
+    </el-container>
   </el-container>
 </template>
 
@@ -50,8 +52,6 @@ export default {
 .page_staff {
   max-width: 1920px;
   margin: auto;
-  background-image: url("./home/img_底图拉伸自适应.png");
-  background-size: contain;
 }
 
 .staff_banner {

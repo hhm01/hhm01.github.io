@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/staff.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/staff.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +83,7 @@
       <workItem from="1647925352135" duration="73000" />
       <workItem from="1647959350368" duration="8456000" />
       <workItem from="1648208315606" duration="9028000" />
-      <workItem from="1648301786444" duration="3648000" />
+      <workItem from="1648301786444" duration="12694000" />
     </task>
     <servers />
   </component>
