@@ -2,66 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2e51ff0-720a-4ffe-ae1f-3c78e1feeea7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/menu/img_封面拉伸底图.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/home/img_avg_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/home/img_rpg_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/home/img_rpg_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/home/img_rpg_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/home/img_rpg_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/home/img_rpg_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/home/img_封面图.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/home/白情预热~1.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/staff/img_bannerSTAFF.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/css/app.e48aa84ad6482c1dee4fd2dba08e95f1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/css/app.e48aa84ad6482c1dee4fd2dba08e95f1.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/fonts/element-icons.535877f.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/fonts/element-icons.732389d.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/img/img_avg_1.88a6e67.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/img/img_avg_2.9ac3dc5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/img/img_avg_3.ce2cd2d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/img/img_avg_4.9ce6dd9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/img/img_avg_5.b1d4351.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/img/img_bannerSTAFF.44cc076.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/img/img_rpg_1.80d63a8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/img/img_rpg_2.2bfc737.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/img/img_rpg_3.dbfde77.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/img/img_rpg_4.74d5f1f.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/img/img_rpg_5.bdfb338.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/img/img_封面图.65836a0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/img/img_封面拉伸底图.b3b4d55.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/img/img_底图拉伸自适应.3003a4c.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/img/logo.509be2e.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/js/0.49f33eeb4accef5eb650.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/js/0.49f33eeb4accef5eb650.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/js/1.d2abc95c78488c21ea09.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/js/1.d2abc95c78488c21ea09.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/js/2.2de20286d59a87b133ae.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/js/2.2de20286d59a87b133ae.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/js/3.c29a21f52897ddc95ef9.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/js/3.c29a21f52897ddc95ef9.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/js/4.e6ba2ef50bc91b718c54.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/js/4.e6ba2ef50bc91b718c54.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/js/app.5d6d2b76c95c7b29ccdf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/js/app.5d6d2b76c95c7b29ccdf.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/js/manifest.a81d9ac0de3894d526bd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/js/manifest.a81d9ac0de3894d526bd.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/js/vendor.fd2318a3c2e6182ab1e9.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/js/vendor.fd2318a3c2e6182ab1e9.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/static/media/白情预热~1.da1c01a.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/menu/img_封面拉伸底图.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/img_avg_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/img_rpg_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/img_rpg_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/img_rpg_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/img_rpg_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/img_rpg_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/img_封面图.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/白情预热~1.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/staff.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/staff.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/staff/img_bannerSTAFF.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +81,7 @@
       <workItem from="1647925352135" duration="73000" />
       <workItem from="1647959350368" duration="8456000" />
       <workItem from="1648208315606" duration="9028000" />
-      <workItem from="1648301786444" duration="985000" />
+      <workItem from="1648301786444" duration="1379000" />
     </task>
     <servers />
   </component>

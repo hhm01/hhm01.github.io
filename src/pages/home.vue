@@ -67,7 +67,7 @@
               <img ref="carousel_img" :src="pic.src" class="home_img_3" @load="img_load" @change="img_load">
             </el-carousel-item>
           </el-carousel>
-          <el-carousel ref="carousel_rpg" arrow="never" indicator-position="none" :height="carousel_height+'px'" v-if="show === 'show_rpg'">
+          <el-carousel type="card" ref="carousel_rpg" arrow="never" indicator-position="none" :height="carousel_height+'px'" v-if="show === 'show_rpg'">
             <el-carousel-item v-for="pic in screenshot_rpg" :key="pic">
               <img ref="carousel_img" :src="pic.src" class="home_img_3">
             </el-carousel-item>
@@ -311,11 +311,7 @@ export default {
   background-size: 91%;
   background-repeat: no-repeat;
   background-position: center;
-  width: 70%;
-}
-
-.el-carousel__container {
-
+  width: 90%;
 }
 
 .select_button {
@@ -343,7 +339,7 @@ export default {
 }
 
 .home_carousel {
-  width: 70%;
+  width: 90%;
   margin: 2% auto 2% auto;
   background-image: url("./home/img_截图底图.png");
   background-size: contain;
