@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="whole_page" direction="vertical">
-    <el-row>
+    <el-row class="page_background">
       <router-view></router-view>
     </el-row>
     <el-row class="header_page">
@@ -50,10 +50,17 @@ body {
 }
 
 .whole_page {
-  background-image: url("./assets/menu/img_封面拉伸底图.jpg");
-  background-size: auto;
-  background-repeat: no-repeat;
+  background-image: url("./pages/home/img_底图拉伸自适应.png");
+  background-size: contain;
+  background-repeat: repeat-y;
   text-align: center;
+  width: 100%;
+}
+
+.page_background {
+  background-image: url("./assets/menu/img_封面拉伸底图.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
   width: 100%;
 }
 
@@ -68,7 +75,6 @@ body {
   right: 0;
   margin: auto;
   width: 100%;
-  max-width: 1920px;
   height: 5vw;
 }
 

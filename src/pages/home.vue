@@ -1,4 +1,5 @@
 <template>
+  <el-container direction="vertical">
   <el-container class="page_home" direction="vertical">
     <el-main class="page_home_header">
       <el-row type="flex" justify="center" class="play_button_row">
@@ -79,13 +80,14 @@
         </el-col>
       </el-row>
     </el-main>
-    <el-footer class="page_home_footer" height="auto">
-      <el-row class="auth_text">
-        <p>本游戏为米哈游科技（上海）有限公司原创游戏《原神》的同人作品，所有人物归属米哈游科技（上海）有限公司。</p>
-        <p>根据《原神》官方于2021.11.24官方社区米游社发布的<a :href="authorization_link" target="_blank">《原神同人周边大陆地区正式运行指引v1.2》</a>：</p>
-        <p>所有非商用无盈利的同人产出官方都是持有支持态度，并且无需官方专程授权。</p>
-      </el-row>
-    </el-footer>
+  </el-container>
+  <el-container class="page_home_footer">
+    <el-row class="auth_text">
+      <p>本游戏为米哈游科技（上海）有限公司原创游戏《原神》的同人作品，所有人物归属米哈游科技（上海）有限公司。</p>
+      <p>根据《原神》官方于2021.11.24官方社区米游社发布的<a :href="authorization_link" target="_blank">《原神同人周边大陆地区正式运行指引v1.2》</a>：</p>
+      <p>所有非商用无盈利的同人产出官方都是持有支持态度，并且无需官方专程授权。</p>
+    </el-row>
+  </el-container>
   </el-container>
 </template>
 
@@ -183,7 +185,6 @@ export default {
 
 <style>
 .page_home {
-  background-image: url("./home/img_底图拉伸自适应.png");
   background-size: contain;
   max-width: 1920px;
   margin: auto;
@@ -201,7 +202,7 @@ export default {
 
 .page_home_footer {
   background-image: url("./home/img_底部栏底.png");
-  background-size: 100%;
+  background-size: contain;
 }
 
 .play_button_row {
@@ -321,7 +322,7 @@ export default {
   background-repeat: no-repeat;
   background-position: left;
   background-color: transparent;
-  border: 0;
+  border: 0!important;
   padding: 0;
 }
 
