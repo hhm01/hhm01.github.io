@@ -1,7 +1,7 @@
 <template>
   <el-container class="page_staff" direction="vertical">
     <el-main class="page_staff_header">
-      <img src="./staff/img_bannerSTAFF.png" class="staff_banner">
+      <img src="./staff/img_bannerSTAFF.jpg" class="staff_banner">
     </el-main>
     <el-main class="page_staff_list">
       <el-row>

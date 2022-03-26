@@ -50,7 +50,7 @@ body {
 }
 
 .whole_page {
-  background-image: url("./assets/menu/img_封面拉伸底图.png");
+  background-image: url("./assets/menu/img_封面拉伸底图.jpg");
   background-size: auto;
   background-repeat: no-repeat;
   text-align: center;

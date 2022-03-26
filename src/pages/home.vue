@@ -62,7 +62,7 @@
           </el-button>
         </el-col>
         <el-col :span="20">
-          <el-carousel ref="carousel_avg" arrow="never" indicator-position="none" :height="carousel_height+'px'" v-if="show === 'show_avg'">
+          <el-carousel type="card" ref="carousel_avg" arrow="never" indicator-position="none" :height="carousel_height+'px'" v-if="show === 'show_avg'">
             <el-carousel-item v-for="pic in screenshot_avg" :key="pic">
               <img ref="carousel_img" :src="pic.src" class="home_img_3" @load="img_load" @change="img_load">
             </el-carousel-item>
@@ -122,13 +122,13 @@ export default {
   data () {
     return {
       authorization_link: 'https://m.bbs.mihoyo.com/ys?channel=appstore/#/article/12304239',
-      home_PV: require('./home/白情预热~1.mp4'),
+      home_PV: require('./home/白情预热~1.webm'),
       show: 'show_avg',
       carousel_height: '',
       screen_width: document.body.clientWidth,
       screenshot_avg: [
         {
-          src: require('./home/img_avg_1.png')
+          src: require('./home/img_avg_1.jpg')
         },
         {
           src: require('./home/img_avg_2.png')
@@ -145,19 +145,19 @@ export default {
       ],
       screenshot_rpg: [
         {
-          src: require('./home/img_rpg_1.png')
+          src: require('./home/img_rpg_1.jpg')
         },
         {
-          src: require('./home/img_rpg_2.png')
+          src: require('./home/img_rpg_2.jpg')
         },
         {
-          src: require('./home/img_rpg_3.png')
+          src: require('./home/img_rpg_3.jpg')
         },
         {
-          src: require('./home/img_rpg_4.png')
+          src: require('./home/img_rpg_4.jpg')
         },
         {
-          src: require('./home/img_rpg_5.png')
+          src: require('./home/img_rpg_5.jpg')
         }
       ]
     }
@@ -194,7 +194,7 @@ export default {
 }
 
 .page_home_header {
-  background-image: url("./home/img_封面图.png");
+  background-image: url("home/img_封面图.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
 }
