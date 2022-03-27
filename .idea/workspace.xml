@@ -2,45 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2e51ff0-720a-4ffe-ae1f-3c78e1feeea7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/intro/btn_name1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/intro/btn_name2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/intro/btn_name3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/intro/btn_name4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/intro/btn_name5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/intro/btn_name6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/intro/btn_name7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/intro/btn_name8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/intro/btn_name9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/intro/btn_txrole1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/intro/btn_txrole2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/intro/btn_txrole3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/intro/btn_txrole4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/intro/btn_txrole5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/intro/btn_txrole6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/intro/btn_txrole7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/intro/btn_txrole8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/intro/btn_txrole9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/intro/img_name1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/intro/img_name2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/intro/img_name3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/intro/img_name4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/intro/img_name5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/intro/img_name6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/intro/img_name7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/intro/img_name8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/intro/img_name9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/intro/img_role1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/intro/img_role2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/intro/img_role3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/intro/img_role4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/intro/img_role5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/intro/img_role6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/intro/img_role7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/intro/img_role8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/intro/img_role9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/intro/img_小人图.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/intro.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/intro.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +83,7 @@
       <workItem from="1647959350368" duration="8456000" />
       <workItem from="1648208315606" duration="9028000" />
       <workItem from="1648301786444" duration="12781000" />
-      <workItem from="1648386517222" duration="10635000" />
+      <workItem from="1648386517222" duration="11125000" />
     </task>
     <servers />
   </component>

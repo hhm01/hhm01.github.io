@@ -76,6 +76,7 @@ export default {
 .role_names_btn {
   align-items: center;
   height: 50vw;
+  max-height: 960px;
   padding-top: 10%;
 }
 
@@ -200,6 +201,7 @@ export default {
   width: 60%;
   margin-left: -10%;
   height: 50vw;
+  max-height: 960px;
   background-image: url("./intro/img_role1.png");
   background-size: contain;
   background-repeat: no-repeat;

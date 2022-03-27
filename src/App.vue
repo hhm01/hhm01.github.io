@@ -75,7 +75,7 @@ body {
   background-image: url("./assets/menu/logo.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: 20px;
+  background-position: 2vw;
   height: 3.5vw!important;
 }
 
@@ -99,10 +99,6 @@ body {
   background-color: transparent;
   color: #ffffff!important;
   text-shadow: 0 0 10px #ffff00;
-}
-
-.contents_1 {
-  padding: 0 20px;
 }
 
 .menu {
