@@ -7,7 +7,7 @@
       <el-main class="page_home_header">
         <el-row type="flex" justify="center" class="play_button_row">
           <el-col :span="6">
-            <el-button class="play_button_1" size="medium">
+            <el-button class="play_button_1">
 
             </el-button>
           </el-col>
@@ -47,19 +47,6 @@
             </el-button>
           </el-col>
         </el-row>
-        <el-row class="screenshot_base" type="flex" justify="center" align="center" :class="show" style="display: none">
-          <el-col :span="2">
-            <el-button class="select_button select_button_1">
-            </el-button>
-          </el-col>
-          <el-col :span="18">
-            <img :src="pic_rpg" class="home_img_3">
-          </el-col>
-          <el-col :span="2">
-            <el-button class="select_button">
-            </el-button>
-          </el-col>
-        </el-row>
         <el-row class="home_carousel">
           <el-col :span="2">
             <el-button class="select_button select_button_1" @click="arrow_click('left')">
@@ -68,12 +55,12 @@
           <el-col :span="20">
             <el-carousel type="card" ref="carousel_avg" arrow="never" indicator-position="none" height="20.9vw" v-if="show === 'show_avg'">
               <el-carousel-item v-for="pic in screenshot_avg" :key="pic">
-                <img ref="carousel_img" :src="pic.src" class="home_img_3" @load="img_load">
+                <img ref="carousel_img" :src="pic.src" class="home_img_3">
               </el-carousel-item>
             </el-carousel>
             <el-carousel type="card" ref="carousel_rpg" arrow="never" indicator-position="none" height="20.9vw" v-if="show === 'show_rpg'">
               <el-carousel-item v-for="pic in screenshot_rpg" :key="pic">
-                <img ref="carousel_img_2" :src="pic.src" class="home_img_3" @load="img_load">
+                <img ref="carousel_img_2" :src="pic.src" class="home_img_3">
               </el-carousel-item>
             </el-carousel>
           </el-col>
@@ -167,15 +154,6 @@ export default {
         }
       ]
     }
-  },
-  mounted () {
-    const that = this
-    that.img_load()
-    window.onresize = function () {
-      return (() => {
-        that.img_load()
-      })()
-    }
   }
 }
 </script>
@@ -212,39 +190,42 @@ export default {
 }
 
 .play_button_row {
-  margin: 45% 0 1% 0;
+  margin: 46% 0 0 0;
+  height: 12.5vw;
 }
 
 .play_button_1 {
   background-image: url("./home/btn_AVG游玩.png");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-color: transparent;
   background-position: center;
   width: 80%;
-  padding: 25% 0;
+  height: 6vw;
   border: 0;
 }
 
 .play_button_1:hover {
   background-color: transparent;
   width: 84%;
+  height: 6.3vw;
 }
 
 .play_button_2 {
   background-image: url("./home/btn_RPG下载.png");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-color: transparent;
   background-position: center;
   width: 80%;
-  padding: 25% 0;
+  height: 6vw;
   border: 0;
 }
 
 .play_button_2:hover {
   background-color: transparent;
   width: 84%;
+  height: 6.3vw;
 }
 
 .home_img_1 {
@@ -311,14 +292,6 @@ export default {
   background-image: url("./home/img_RPG游戏.png");
   background-color: transparent;
   border: 0;
-}
-
-.screenshot_base {
-  background-image: url("./home/img_截图底图.png");
-  background-size: 91%;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 90%;
 }
 
 .select_button {
