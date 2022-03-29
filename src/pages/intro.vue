@@ -6,20 +6,44 @@
         </el-button>
       </el-row>
     </el-aside>
-    <el-main class="role_img">
+    <el-main class="role_img" v-if="role_focus==='show_role9'">
       <div class="role_img_arc">
-          <el-popover class="popover_11" popper-class="popper_comment" placement="left" trigger="click" :content="roles[0].comment_1">
-            <el-button slot="reference" class="head_comment head_11" circle></el-button>
+          <el-popover class="popover_1" popper-class="popper_comment" placement="left" trigger="click" :content="roles[8].comment_1">
+            <el-button slot="reference" class="head_comment head_91" circle></el-button>
           </el-popover>
-          <el-popover class="popover_12" popper-class="popper_comment" placement="left" width="5vw" trigger="click" :content="roles[0].comment_2">
-            <el-button slot="reference" class="head_comment head_12" circle></el-button>
+          <el-popover class="popover_2" popper-class="popper_comment" placement="left" trigger="click" :content="roles[8].comment_2">
+            <el-button slot="reference" class="head_comment head_92" circle></el-button>
           </el-popover>
-          <el-popover class="popover_13" popper-class="popper_comment" placement="left" width="5vw" trigger="click" :content="roles[0].comment_3">
-            <el-button slot="reference" class="head_comment head_13" circle></el-button>
+          <el-popover class="popover_3" popper-class="popper_comment" placement="left" trigger="click" :content="roles[8].comment_3">
+            <el-button slot="reference" class="head_comment head_93" circle></el-button>
           </el-popover>
       </div>
     </el-main>
-    <el-main class="role_others">
+    <el-main class="role_img" v-else>
+      <div class="role_img_arc">
+        <el-popover class="popover_1" popper-class="popper_comment" placement="left" trigger="click" :content="roles[0].comment_1">
+          <el-button slot="reference" class="head_comment head_11" circle></el-button>
+        </el-popover>
+        <el-popover class="popover_2" popper-class="popper_comment" placement="left" trigger="click" :content="roles[0].comment_2">
+          <el-button slot="reference" class="head_comment head_12" circle></el-button>
+        </el-popover>
+        <el-popover class="popover_3" popper-class="popper_comment" placement="left" trigger="click" :content="roles[0].comment_3">
+          <el-button slot="reference" class="head_comment head_13" circle></el-button>
+        </el-popover>
+      </div>
+    </el-main>
+    <el-main class="role_others" v-if="role_focus==='show_role9'">
+      <el-row class="others_1">
+        <img src="./intro/gif_role9.gif" style="height: 7vw; max-height: 134.4px;">
+      </el-row>
+      <el-row class="others_2">
+        {{ roles[8].name }}
+      </el-row>
+      <el-row class="others_3">
+        {{ roles[8].introduction }}
+      </el-row>
+    </el-main>
+    <el-main class="role_others" v-else>
       <el-row class="others_1">
         <img src="./intro/img_小人图.png" style="height: 7vw; max-height: 134.4px;">
       </el-row>
@@ -46,6 +70,7 @@ export default {
       roles: [
         {
           id: 'role1',
+          name: '空',
           comment_1: '印象评价印象评价印象评价',
           comment_2: '印象评价印象评价印象评价',
           comment_3: '印象评价印象评价印象评价'
@@ -72,7 +97,12 @@ export default {
           id: 'role8'
         },
         {
-          id: 'role9'
+          id: 'role9',
+          name: '达达利亚',
+          comment_1: '充满斗志的年轻武人。其人如刀刃般凌厉，你要看清他到底剑指何方，勿受其伤。',
+          comment_2: '这位来自至冬的同学想必酒量不错吧~真期待和他在酒桌上较量一番。诶？危险份子？哈哈，不用担心，在美酒前动粗这么不解风情的事，他应该是不会做的。你说对吧？',
+          comment_3: '听“她”提起过这个名字，是很好用的棋子——我确实是在夸奖他。毕竟，能从深渊爬出的人类千年难遇。',
+          introduction: '去年入学的提瓦特学院一年生。虽说如此，实际上没有半点【学弟】的自觉，是个沉迷战斗让教授和同学都头疼的危险人物。实战成绩在全学院数一数二，对同样战力优异的女主另眼相看，称呼其为“伙伴”——.但在他无光的蓝瞳之下，似乎暗涌着别样的狂澜。'
         }
       ]
     }
@@ -268,7 +298,7 @@ export default {
   margin: 25% 10% 0 0;
 }
 
-.popover_11 {
+.popover_1 {
   top: 32%;
   left: 62%;
   position: relative;
@@ -278,7 +308,7 @@ export default {
   background-image: url("./intro/btn_txrole1.png")
 }
 
-.popover_12 {
+.popover_2 {
   top: 57%;
   left: 47%;
   position: relative;
@@ -288,13 +318,25 @@ export default {
   background-image: url("./intro/btn_txrole2.png")
 }
 
-.popover_13 {
+.popover_3 {
   top: 79%;
   left: 22%;
   position: relative;
 }
 
 .head_13 {
+  background-image: url("./intro/btn_txrole3.png")
+}
+
+.head_91 {
+  background-image: url("./intro/btn_txrole1.png")
+}
+
+.head_92 {
+  background-image: url("./intro/btn_txrole2.png")
+}
+
+.head_93 {
   background-image: url("./intro/btn_txrole3.png")
 }
 
