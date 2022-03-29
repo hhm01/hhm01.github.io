@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2e51ff0-720a-4ffe-ae1f-3c78e1feeea7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pages/intro/img_弧线.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/intro.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/intro.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +83,8 @@
       <workItem from="1647959350368" duration="8456000" />
       <workItem from="1648208315606" duration="9028000" />
       <workItem from="1648301786444" duration="12781000" />
-      <workItem from="1648386517222" duration="11125000" />
+      <workItem from="1648386517222" duration="11217000" />
+      <workItem from="1648562184600" duration="6531000" />
     </task>
     <servers />
   </component>

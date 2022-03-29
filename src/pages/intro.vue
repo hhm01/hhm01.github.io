@@ -7,7 +7,17 @@
       </el-row>
     </el-aside>
     <el-main class="role_img">
-
+      <div class="role_img_arc">
+          <el-popover class="popover_11" popper-class="popper_comment" placement="left" trigger="click" :content="roles[0].comment_1">
+            <el-button slot="reference" class="head_comment head_11" circle></el-button>
+          </el-popover>
+          <el-popover class="popover_12" popper-class="popper_comment" placement="left" width="5vw" trigger="click" :content="roles[0].comment_2">
+            <el-button slot="reference" class="head_comment head_12" circle></el-button>
+          </el-popover>
+          <el-popover class="popover_13" popper-class="popper_comment" placement="left" width="5vw" trigger="click" :content="roles[0].comment_3">
+            <el-button slot="reference" class="head_comment head_13" circle></el-button>
+          </el-popover>
+      </div>
     </el-main>
     <el-main class="role_others">
       <el-row class="others_1">
@@ -35,7 +45,10 @@ export default {
       role_focus: 'show_role1',
       roles: [
         {
-          id: 'role1'
+          id: 'role1',
+          comment_1: '印象评价印象评价印象评价',
+          comment_2: '印象评价印象评价印象评价',
+          comment_3: '印象评价印象评价印象评价'
         },
         {
           id: 'role2'
@@ -206,6 +219,83 @@ export default {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.div_head {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.head_comment {
+  width: 5vw;
+  height: 5vw;
+  max-width: 96px;
+  max-height: 96px;
+  background-color: transparent;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  border: 0;
+}
+
+.head_comment:hover, .head_comment:focus {
+  border: 0;
+  background-size: 100%;
+}
+
+.popper_comment {
+  background-color: #d1caf5;
+  border: 0;
+  color: #1f203e;
+  width: 15vw;
+  font-size: 0.8vw;
+  padding: 1%;
+}
+
+.popper__arrow,
+.popper__arrow:after {
+  border-left-color: #d1caf5!important;
+}
+
+.role_img_arc {
+  height: 70%;
+  background-image: url("./intro/img_弧线.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  margin: 25% 10% 0 0;
+}
+
+.popover_11 {
+  top: 32%;
+  left: 62%;
+  position: relative;
+}
+
+.head_11 {
+  background-image: url("./intro/btn_txrole1.png")
+}
+
+.popover_12 {
+  top: 57%;
+  left: 47%;
+  position: relative;
+}
+
+.head_12 {
+  background-image: url("./intro/btn_txrole2.png")
+}
+
+.popover_13 {
+  top: 79%;
+  left: 22%;
+  position: relative;
+}
+
+.head_13 {
+  background-image: url("./intro/btn_txrole3.png")
 }
 
 .role_others {
