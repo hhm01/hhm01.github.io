@@ -251,14 +251,6 @@ export default {
   background-position: center;
 }
 
-.div_head {
-  height: 100%;
-  width: 100%;
-  position: relative;
-  top: 0;
-  left: 0;
-}
-
 .head_comment {
   width: 5vw;
   height: 5vw;
@@ -280,6 +272,7 @@ export default {
   border: 0;
   color: #1f203e;
   width: 15vw;
+  min-width: 100px;
   font-size: 0.8vw;
   padding: 1%;
 }
