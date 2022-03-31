@@ -119,6 +119,54 @@
         </div>
       </el-main>
     </el-container>
+    <el-container direction="horizontal" v-if="show_work === 'show_rpg_work'" style="width: 100%; max-width: 1920px; margin: auto;">
+      <el-main class="work_menu" :class="show_item">
+        <el-row class="menu_item_row">
+          <el-button class="menu_item_btn item_1" @click="change_item('1')">
+            操作攻略
+          </el-button>
+        </el-row>
+        <el-row class="menu_item_row">
+          <el-button class="menu_item_btn item_2" @click="change_item('2')">
+            主线攻略
+          </el-button>
+        </el-row>
+        <el-row class="menu_item_row">
+          <el-button class="menu_item_btn item_3" @click="change_item('3')">
+            个人线攻略
+          </el-button>
+        </el-row>
+        <el-row class="menu_item_row">
+          <el-button class="menu_item_btn item_4" @click="change_item('4')">
+            支线攻略
+          </el-button>
+        </el-row>
+        <el-row class="menu_item_row">
+          <el-button class="menu_item_btn item_5" @click="change_item('5')">
+            彩蛋攻略
+          </el-button>
+        </el-row>
+      </el-main>
+      <el-main class="work_dividing_line">
+      </el-main>
+      <el-main class="work_content">
+        <div v-if="show_item === 'show_item_1'">
+          操作攻略内容
+        </div>
+        <div v-else-if="show_item === 'show_item_2'">
+          主线攻略内容
+        </div>
+        <div v-else-if="show_item === 'show_item_3'">
+          个人线攻略内容
+        </div>
+        <div v-else-if="show_item === 'show_item_4'">
+          支线攻略内容
+        </div>
+        <div v-else-if="show_item === 'show_item_5'">
+          彩蛋攻略内容
+        </div>
+      </el-main>
+    </el-container>
   </el-container>
 </template>
 
@@ -127,9 +175,11 @@ export default {
   methods: {
     show_avg_work () {
       this.show_work = 'show_avg_work'
+      this.show_item = 'show_item_1'
     },
     show_rpg_work () {
       this.show_work = 'show_rpg_work'
+      this.show_item = 'show_item_1'
     },
     change_item (id) {
       this.show_item = 'show_item_' + id
