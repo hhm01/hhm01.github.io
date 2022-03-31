@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2e51ff0-720a-4ffe-ae1f-3c78e1feeea7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/work.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/work/btn_AVG游戏攻略.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/work/btn_RPG游戏攻略.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/work/img_AVG游戏攻略.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/work/img_RPG游戏攻略.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/work/img_banner攻略集锦.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/work/img_攻略分割线.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/intro.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/intro.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/work.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/work.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +84,8 @@
       <workItem from="1648301786444" duration="12781000" />
       <workItem from="1648386517222" duration="11217000" />
       <workItem from="1648562184600" duration="8593000" />
-      <workItem from="1648652690290" duration="6114000" />
+      <workItem from="1648652690290" duration="6481000" />
+      <workItem from="1648733398610" duration="3637000" />
     </task>
     <servers />
   </component>

@@ -32,11 +32,91 @@
             角色攻略
           </el-button>
         </el-row>
+        <el-row class="menu_item_row">
+          <el-button class="menu_item_btn item_4" @click="change_item('4')" style="text-indent: 4.6vw;">
+            温迪
+          </el-button>
+        </el-row>
+        <el-row class="menu_item_row">
+          <el-button class="menu_item_btn item_5" @click="change_item('5')" style="text-indent: 4.6vw;">
+            迪卢克
+          </el-button>
+        </el-row>
+        <el-row class="menu_item_row">
+          <el-button class="menu_item_btn item_6" @click="change_item('6')" style="text-indent: 4.6vw;">
+            钟离
+          </el-button>
+        </el-row>
+        <el-row class="menu_item_row">
+          <el-button class="menu_item_btn item_7" @click="change_item('7')" style="text-indent: 4.6vw;">
+            阿贝多
+          </el-button>
+        </el-row>
+        <el-row class="menu_item_row">
+          <el-button class="menu_item_btn item_8" @click="change_item('8')" style="text-indent: 4.6vw;">
+            凯亚
+          </el-button>
+        </el-row>
+        <el-row class="menu_item_row">
+          <el-button class="menu_item_btn item_9" @click="change_item('9')" style="text-indent: 4.6vw;">
+            空
+          </el-button>
+        </el-row>
+        <el-row class="menu_item_row">
+          <el-button class="menu_item_btn item_10" @click="change_item('10')" style="text-indent: 4.6vw;">
+            达达利亚
+          </el-button>
+        </el-row>
+        <el-row class="menu_item_row">
+          <el-button class="menu_item_btn item_11" @click="change_item('11')" style="text-indent: 4.6vw;">
+            魈
+          </el-button>
+        </el-row>
+        <el-row class="menu_item_row">
+          <el-button class="menu_item_btn item_12" @click="change_item('12')" style="text-indent: 4.6vw;">
+            温迪
+          </el-button>
+        </el-row>
       </el-main>
       <el-main class="work_dividing_line">
       </el-main>
       <el-main class="work_content">
-
+        <div v-if="show_item === 'show_item_1'">
+          界面指引攻略内容
+        </div>
+        <div v-else-if="show_item === 'show_item_2'">
+          个人攻略内容
+        </div>
+        <div v-else-if="show_item === 'show_item_3'">
+          角色攻略内容
+        </div>
+        <div v-else-if="show_item === 'show_item_4'">
+          温迪攻略内容
+        </div>
+        <div v-else-if="show_item === 'show_item_5'">
+          迪卢克攻略内容
+        </div>
+        <div v-else-if="show_item === 'show_item_6'">
+          钟离攻略内容
+        </div>
+        <div v-else-if="show_item === 'show_item_7'">
+          阿贝多攻略内容
+        </div>
+        <div v-else-if="show_item === 'show_item_8'">
+          凯亚攻略内容
+        </div>
+        <div v-else-if="show_item === 'show_item_9'">
+          空攻略内容
+        </div>
+        <div v-else-if="show_item === 'show_item_10'">
+          达达利亚攻略内容
+        </div>
+        <div v-else-if="show_item === 'show_item_11'">
+          魈攻略内容
+        </div>
+        <div v-else-if="show_item === 'show_item_12'">
+          温迪攻略内容
+        </div>
       </el-main>
     </el-container>
   </el-container>
@@ -105,17 +185,16 @@ export default {
 }
 
 .work_menu {
-  width: 18%;
+  width: 20vw;
   text-align: left;
-  margin-left: 4%;
+  margin: 0 1% 2% 3%;
   font-size: 2.1vw;
   letter-spacing: 0.2vw;
-  margin-bottom: 2%;
   min-width: 90px;
 }
 
 .menu_item_row {
-  margin: 10% 0;
+  margin: 0 0 10% 0;
 }
 
 .menu_item_btn {
@@ -126,6 +205,7 @@ export default {
   border: 0;
   background-color: transparent;
   font-size: 2.1vw;
+  max-font-size: 20px;
   letter-spacing: 0.2vw;
 }
 
@@ -156,7 +236,11 @@ export default {
 }
 
 .work_content {
-  width: 80%;
-  margin-left: 5%;
+  width: 100%;
+  margin-left: 2%;
+  margin-top: 0vw;
+  text-align: left;
+  color: #ffffff;
+  font-size: 1.8vw;
 }
 </style>
