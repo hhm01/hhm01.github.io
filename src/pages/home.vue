@@ -324,7 +324,6 @@ export default {
 .home_carousel {
   width: 90%;
   margin: 2% auto 2% auto;
-  background-image: url("./home/img_截图底图.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;

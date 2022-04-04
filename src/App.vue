@@ -4,7 +4,7 @@
       <router-view></router-view>
     </el-row>
     <el-row class="header_page">
-      <el-menu default-active="home" class="menu" :class="page" mode="horizontal" active-text-color="#ff0" router=true @select="select_page">
+      <el-menu default-active="home" class="menu" :class="page" mode="horizontal" active-text-color="#ff0" router="true" @select="select_page">
         <el-row class="header_menu">
           <el-col :span="5"><div class="contents_1 home_group_info"></div></el-col>
           <el-col :span="3"><el-menu-item class="contents btn_home" index="home" route="/">首页</el-menu-item></el-col>
