@@ -17,6 +17,9 @@
           <el-popover class="popover_3" popper-class="popper_comment" placement="left" trigger="click" :content="roles[8].comment_3">
             <el-button slot="reference" class="head_comment head_93" circle></el-button>
           </el-popover>
+        <div class="intro_1">
+          {{ roles[8].intro_1 }}
+        </div>
       </div>
     </el-main>
     <el-main class="role_img" v-else>
@@ -102,7 +105,8 @@ export default {
           comment_1: '充满斗志的年轻武人。其人如刀刃般凌厉，你要看清他到底剑指何方，勿受其伤。',
           comment_2: '这位来自至冬的同学想必酒量不错吧~真期待和他在酒桌上较量一番。诶？危险份子？哈哈，不用担心，在美酒前动粗这么不解风情的事，他应该是不会做的。你说对吧？',
           comment_3: '听“她”提起过这个名字，是很好用的棋子——我确实是在夸奖他。毕竟，能从深渊爬出的人类千年难遇。',
-          introduction: '去年入学的提瓦特学院一年生。虽说如此，实际上没有半点【学弟】的自觉，是个沉迷战斗让教授和同学都头疼的危险人物。实战成绩在全学院数一数二，对同样战力优异的女主另眼相看，称呼其为“伙伴”——.但在他无光的蓝瞳之下，似乎暗涌着别样的狂澜。'
+          introduction: '去年入学的提瓦特学院一年生。虽说如此，实际上没有半点【学弟】的自觉，是个沉迷战斗让教授和同学都头疼的危险人物。实战成绩在全学院数一数二，对同样战力优异的女主另眼相看，称呼其为“伙伴”——.但在他无光的蓝瞳之下，似乎暗涌着别样的狂澜。',
+          intro_1: '弓，是我最不擅长的武器。'
         }
       ]
     }
@@ -289,6 +293,19 @@ export default {
   background-repeat: no-repeat;
   background-position: right;
   margin: 25% 10% 0 0;
+}
+
+.intro_1 {
+  position: relative;
+  top: -5vw;
+  left: 10%;
+  text-align: left;
+  color: #ffffff;
+  font-size: 1.2vw;
+  font-family: '宋体';
+  line-height: 1.8vw;
+  letter-spacing: 0.1vw;
+  writing-mode: vertical-rl;
 }
 
 .popover_1 {
