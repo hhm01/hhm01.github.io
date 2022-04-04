@@ -23,9 +23,14 @@
           </el-button>
         </el-row>
         <el-row class="menu_item_row">
-          <div class="menu_item_text item_3">
+          <el-button class="menu_item_btn item_2" @click="change_item('2')">
+            个人攻略
+          </el-button>
+        </el-row>
+        <el-row class="menu_item_row">
+          <el-button class="menu_item_btn item_3" @click="change_item('3')">
             角色攻略
-          </div>
+          </el-button>
         </el-row>
         <el-row class="menu_item_row">
           <el-button class="menu_item_btn item_4" @click="change_item('4')" style="text-indent: 4.6vw;">
@@ -78,6 +83,12 @@
       <el-main class="work_content">
         <div v-if="show_item === 'show_item_1'">
           界面指引攻略内容
+        </div>
+        <div v-else-if="show_item === 'show_item_2'">
+          个人攻略内容
+        </div>
+        <div v-else-if="show_item === 'show_item_3'">
+          角色攻略内容
         </div>
         <div v-else-if="show_item === 'show_item_4'">
           温迪攻略内容
@@ -236,14 +247,13 @@ export default {
   margin: 0 0 10% 0;
 }
 
-.menu_item_text,
 .menu_item_btn {
-  color: #d1caf5!important;
+  color: #d1caf5;
   font-family: 宋体;
   font-weight: bold;
   padding: 0;
   border: 0;
-  background-color: transparent!important;
+  background-color: transparent;
   font-size: 2.1vw;
   max-font-size: 20px;
   letter-spacing: 0.2vw;
@@ -265,11 +275,6 @@ export default {
   color: #ffffff;
   text-shadow: 0 0 4px #d1a8ff;
   background-color: transparent;
-}
-
-.menu_item_row .item_3:hover {
-  color: #d1caf5!important;
-  text-shadow: transparent;
 }
 
 .work_dividing_line {
