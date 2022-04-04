@@ -42,6 +42,9 @@
       <el-row class="others_2">
         {{ roles[8].name }}
       </el-row>
+      <el-row class="others_4">
+        {{ roles[8].intro_1 }}
+      </el-row>
       <el-row class="others_3">
         {{ roles[8].introduction }}
       </el-row>
@@ -106,7 +109,7 @@ export default {
           comment_2: '这位来自至冬的同学想必酒量不错吧~真期待和他在酒桌上较量一番。诶？危险份子？哈哈，不用担心，在美酒前动粗这么不解风情的事，他应该是不会做的。你说对吧？',
           comment_3: '听“她”提起过这个名字，是很好用的棋子——我确实是在夸奖他。毕竟，能从深渊爬出的人类千年难遇。',
           introduction: '去年入学的提瓦特学院一年生。虽说如此，实际上没有半点【学弟】的自觉，是个沉迷战斗让教授和同学都头疼的危险人物。实战成绩在全学院数一数二，对同样战力优异的女主另眼相看，称呼其为“伙伴”——.但在他无光的蓝瞳之下，似乎暗涌着别样的狂澜。',
-          intro_1: '弓，是我最不擅长的武器。'
+          intro_1: '『但是，伙伴，为什么那支箭会偏那么多。』'
         }
       ]
     }
@@ -298,14 +301,14 @@ export default {
 .intro_1 {
   position: relative;
   top: -5vw;
-  left: 10%;
+  left: 7%;
   text-align: left;
   color: #ffffff;
-  font-size: 1.2vw;
-  font-family: '宋体';
+  font-size: 1.4vw;
+  font-family: 华文行楷;
   line-height: 1.8vw;
   letter-spacing: 0.1vw;
-  writing-mode: vertical-rl;
+  max-width: 16vw;
 }
 
 .popover_1 {
@@ -356,7 +359,7 @@ export default {
 }
 
 .others_1 {
-  margin-top: 45%;
+  margin-top: 35%;
   text-align: left;
 }
 
@@ -368,6 +371,7 @@ export default {
   margin: 3% 0;
 }
 
+.others_4,
 .others_3 {
   color: #ffffff;
   font-size: 1.2vw;
