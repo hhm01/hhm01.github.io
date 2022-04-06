@@ -70,16 +70,18 @@ export default {
 }
 
 .text_position {
-  font-size: 1.5rem;
+  font-size: 1.8vw;
   color: #beb4f1;
   font-family: '宋体';
   margin-bottom: 1%;
+  font-weight: bold;
 }
 
 .text_name_list {
-  font-size: 1.8rem;
+  font-size: 2.2vw;
   color: #ffffff;
   font-family: '宋体';
+  font-weight: bold;
 }
 
 .staff_img_2 {
