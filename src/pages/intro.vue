@@ -279,6 +279,7 @@ export default {
   border: 0;
   color: #1f203e;
   width: 15vw;
+  max-width: 288px;
   min-width: 100px;
   font-size: 0.8vw;
   padding: 1%;
@@ -300,7 +301,7 @@ export default {
 
 .intro_1 {
   position: relative;
-  top: -5vw;
+  top: -10%;
   left: 7%;
   text-align: left;
   color: #ffffff;

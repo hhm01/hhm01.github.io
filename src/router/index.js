@@ -28,6 +28,16 @@ const routes = [
     path: '/QA',
     name: 'QA',
     component: () => import('../pages/QA.vue')
+  },
+  {
+    path: '/play_avg',
+    name: 'play_avg',
+    component: () => import('../pages/play_avg.vue')
+  },
+  {
+    path: '/play_rpg',
+    name: 'play_rpg',
+    component: () => import('../pages/play_rpg.vue')
   }
 ]
 

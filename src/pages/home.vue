@@ -7,12 +7,12 @@
       <el-main class="page_home_header">
         <el-row type="flex" justify="center" class="play_button_row">
           <el-col :span="6">
-            <el-button class="play_button_1">
+            <el-button class="play_button_1" @click="play_avg">
 
             </el-button>
           </el-col>
           <el-col :span="6">
-            <el-button class="play_button_2">
+            <el-button class="play_button_2" @click="play_rpg">
 
             </el-button>
           </el-col>
@@ -90,6 +90,12 @@
 <script>
 export default {
   methods: {
+    play_avg: function () {
+      this.$router.push('/play_avg')
+    },
+    play_rpg: function () {
+      this.$router.push('/play_rpg')
+    },
     show_avg_pic: function () {
       this.show = 'show_avg'
     },
@@ -192,6 +198,7 @@ export default {
 .play_button_row {
   margin: 46% 0 0 0;
   height: 12.5vw;
+  max-height: 240px;
 }
 
 .play_button_1 {
@@ -202,6 +209,7 @@ export default {
   background-position: center;
   width: 80%;
   height: 6vw;
+  max-height: 115px;
   border: 0;
 }
 
@@ -209,6 +217,7 @@ export default {
   background-color: transparent;
   width: 84%;
   height: 6.3vw;
+  max-height: 121px;
 }
 
 .play_button_2 {
@@ -219,6 +228,7 @@ export default {
   background-position: center;
   width: 80%;
   height: 6vw;
+  max-height: 115px;
   border: 0;
 }
 
@@ -226,6 +236,7 @@ export default {
   background-color: transparent;
   width: 84%;
   height: 6.3vw;
+  max-height: 121px;
 }
 
 .home_img_1 {
