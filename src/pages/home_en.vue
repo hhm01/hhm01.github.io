@@ -88,13 +88,13 @@
       <el-menu default-active="home" class="menu" :class="page" mode="horizontal" active-text-color="#ffffff" router="true" @select="select_page">
         <el-row class="header_menu">
           <el-col :span="4"><div class="contents_1 home_group_info"></div></el-col>
-          <el-col :span="3"><el-menu-item class="contents btn_home" index="home" route="/cn/home">首页</el-menu-item></el-col>
-          <el-col :span="3"><el-menu-item class="contents btn_intro" index="intro" route="/cn/intro">人物简介</el-menu-item></el-col>
-          <el-col :span="3"><el-menu-item class="contents btn_work" index="work" route="/cn/work">攻略集锦</el-menu-item></el-col>
-          <el-col :span="3"><el-menu-item class="contents btn_staff" index="staff" route="/cn/staff">STAFF</el-menu-item></el-col>
-          <el-col :span="3"><el-menu-item class="contents btn_QA" index="QA" route="/cn/QA">Q&A</el-menu-item></el-col>
-          <el-col :span="3"><el-menu-item class="contents btn_shop" index="shop" route="/cn/shop">周边</el-menu-item></el-col>
-          <el-col :span="2"><el-button class="contents btn_language" @select="change_lang" @click="change_lang">中文</el-button></el-col>
+          <el-col :span="3"><el-menu-item class="contents btn_home" index="home" route="/en/home">Home</el-menu-item></el-col>
+          <el-col :span="3"><el-menu-item class="contents btn_intro" index="intro" route="/en/intro">Intro</el-menu-item></el-col>
+          <el-col :span="3"><el-menu-item class="contents btn_work" index="work" route="/en/work">Work</el-menu-item></el-col>
+          <el-col :span="3"><el-menu-item class="contents btn_staff" index="staff" route="/en/staff">STAFF</el-menu-item></el-col>
+          <el-col :span="3"><el-menu-item class="contents btn_QA" index="QA" route="/en/QA">Q&A</el-menu-item></el-col>
+          <el-col :span="3"><el-menu-item class="contents btn_shop" index="shop" route="/en/shop">Shop</el-menu-item></el-col>
+          <el-col :span="2"><el-button class="contents btn_language" @select="change_lang" @click="change_lang">English</el-button></el-col>
         </el-row>
       </el-menu>
     </el-row>
@@ -105,10 +105,10 @@
 export default {
   methods: {
     play_avg: function () {
-      this.$router.push('/cn/play_avg')
+      this.$router.push('/en/play_avg')
     },
     play_rpg: function () {
-      this.$router.push('/cn/play_rpg')
+      this.$router.push('/en/play_rpg')
     },
     show_avg_pic: function () {
       this.show = 'show_avg'
@@ -132,7 +132,7 @@ export default {
       }
     },
     change_lang: function () {
-      this.$router.push('/en/' + this.page)
+      this.$router.push('/cn/' + this.page)
     }
   },
   data () {
@@ -142,9 +142,9 @@ export default {
       home_PV: require('./home/白情预热~1.webm'),
       show: 'show_avg',
       screen_width: document.body.clientWidth,
-      intro_text_1: '故事简介：',
-      intro_text_2: '「你」是提瓦特学院的三年级学生。在你平静的校园生活中，有性格迥异的友人、博学多识的教授，以及即将杀来的期末考——',
-      intro_text_3: '然而，一场突如其来的意外打碎了平和的假象。当你费尽心力解决完这些棘手的事件后，才发现这一切仅仅只是个开端……',
+      intro_text_1: 'Story Introduction：',
+      intro_text_2: '「You」 are a third year student at Tivat College. In your peaceful campus life, there are friends with different personalities, knowledgeable professors, and the coming final exams——',
+      intro_text_3: 'However, a sudden accident shattered the illusion of peace. It\'s only the beginning when you\'ve worked your way out of these thorny incidents ...',
       screenshot_avg: [
         {
           src: require('./home/img_avg_1.jpg')
@@ -278,7 +278,7 @@ export default {
   margin: 1% auto;
   font-size: 1.2vw;
   color: #ffffff;
-  font-family: "宋体";
+  font-family: "Times New Roman";
   padding: 0;
 }
 

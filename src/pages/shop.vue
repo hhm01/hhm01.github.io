@@ -1,12 +1,10 @@
 <template>
   <el-container direction="vertical">
-    <el-container class="page_play_avg" direction="vertical">
-      <el-row style="margin-top: 10vw; font-size: 4vw;">
-        AVG游玩
-      </el-row>
+    <el-container class="page_shop" direction="vertical">
+
     </el-container>
     <el-row class="header_page">
-      <el-menu default-active="home" class="menu" :class="page" mode="horizontal" active-text-color="#ffffff" router="true" @select="select_page">
+      <el-menu class="menu" :class="page" mode="horizontal" active-text-color="#ffffff" router="true" @select="select_page">
         <el-row class="header_menu">
           <el-col :span="4"><div class="contents_1 home_group_info"></div></el-col>
           <el-col :span="3"><el-menu-item class="contents btn_home" index="home" route="/cn/home">首页</el-menu-item></el-col>
@@ -31,17 +29,19 @@ export default {
   },
   data () {
     return {
-      page: 'play_avg'
+      page: 'shop'
     }
   }
 }
 </script>
 
 <style>
-.page_play_avg {
+.page_shop {
+  width: 100%;
   max-width: 1920px;
   margin: auto;
-  min-height: 50vw;
+  padding-top: 2%;
+  padding-bottom: 5%;
 }
 
 </style>

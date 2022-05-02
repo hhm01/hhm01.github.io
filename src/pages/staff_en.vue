@@ -24,16 +24,16 @@
       </el-main>
     </el-container>
     <el-row class="header_page">
-      <el-menu class="menu" :class="page" mode="horizontal" active-text-color="#ffffff" router="true" @select="select_page">
+      <el-menu default-active="home" class="menu" :class="page" mode="horizontal" active-text-color="#ffffff" router="true" @select="select_page">
         <el-row class="header_menu">
           <el-col :span="4"><div class="contents_1 home_group_info"></div></el-col>
-          <el-col :span="3"><el-menu-item class="contents btn_home" index="home" route="/cn/home">首页</el-menu-item></el-col>
-          <el-col :span="3"><el-menu-item class="contents btn_intro" index="intro" route="/cn/intro">人物简介</el-menu-item></el-col>
-          <el-col :span="3"><el-menu-item class="contents btn_work" index="work" route="/cn/work">攻略集锦</el-menu-item></el-col>
-          <el-col :span="3"><el-menu-item class="contents btn_staff" index="staff" route="/cn/staff">STAFF</el-menu-item></el-col>
-          <el-col :span="3"><el-menu-item class="contents btn_QA" index="QA" route="/cn/QA">Q&A</el-menu-item></el-col>
-          <el-col :span="3"><el-menu-item class="contents btn_shop" index="shop" route="/cn/shop">周边</el-menu-item></el-col>
-          <el-col :span="2"><el-button class="contents btn_language" @select="change_lang" @click="change_lang">中文</el-button></el-col>
+          <el-col :span="3"><el-menu-item class="contents btn_home" index="home" route="/en/home">Home</el-menu-item></el-col>
+          <el-col :span="3"><el-menu-item class="contents btn_intro" index="intro" route="/en/intro">Intro</el-menu-item></el-col>
+          <el-col :span="3"><el-menu-item class="contents btn_work" index="work" route="/en/work">Work</el-menu-item></el-col>
+          <el-col :span="3"><el-menu-item class="contents btn_staff" index="staff" route="/en/staff">STAFF</el-menu-item></el-col>
+          <el-col :span="3"><el-menu-item class="contents btn_QA" index="QA" route="/en/QA">Q&A</el-menu-item></el-col>
+          <el-col :span="3"><el-menu-item class="contents btn_shop" index="shop" route="/en/shop">Shop</el-menu-item></el-col>
+          <el-col :span="2"><el-button class="contents btn_language" @select="change_lang" @click="change_lang">English</el-button></el-col>
         </el-row>
       </el-menu>
     </el-row>
@@ -44,7 +44,7 @@
 export default {
   methods: {
     change_lang: function () {
-      this.$router.push('/en/' + this.page)
+      this.$router.push('/cn/' + this.page)
     }
   },
   data () {
@@ -52,12 +52,12 @@ export default {
       page: 'staff',
       staff_list: [
         {
-          position: '职位',
-          name_list: '名字'
+          position: 'Position',
+          name_list: 'Name'
         },
         {
-          position: '职位',
-          name_list: '名字、名字、名字、名字、名字'
+          position: 'Position',
+          name_list: 'Name, Name, Name, Name, Name'
         }
       ]
     }
@@ -89,15 +89,14 @@ export default {
 .text_position {
   font-size: 1.8vw;
   color: #beb4f1;
-  font-family: '宋体';
+  font-family: 'Times New Roman';
   margin-bottom: 1%;
-  font-weight: bold;
 }
 
 .text_name_list {
   font-size: 2.2vw;
   color: #ffffff;
-  font-family: '宋体';
+  font-family: 'Times New Roman';
   font-weight: bold;
 }
 

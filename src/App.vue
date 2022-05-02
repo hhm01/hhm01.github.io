@@ -3,18 +3,6 @@
     <el-row>
       <router-view></router-view>
     </el-row>
-    <el-row class="header_page">
-      <el-menu default-active="home" class="menu" :class="page" mode="horizontal" active-text-color="#ffffff" router="true" @select="select_page">
-        <el-row class="header_menu">
-          <el-col :span="5"><div class="contents_1 home_group_info"></div></el-col>
-          <el-col :span="3"><el-menu-item class="contents btn_home" index="home" route="/">首页</el-menu-item></el-col>
-          <el-col :span="3"><el-menu-item class="contents btn_intro" index="intro" route="/intro">人物简介</el-menu-item></el-col>
-          <el-col :span="3"><el-menu-item class="contents btn_work" index="work" route="/work">攻略集锦</el-menu-item></el-col>
-          <el-col :span="3"><el-menu-item class="contents btn_staff" index="staff" route="/staff">STAFF</el-menu-item></el-col>
-          <el-col :span="3"><el-menu-item class="contents btn_QA" index="QA" route="/QA">Q&A</el-menu-item></el-col>
-        </el-row>
-      </el-menu>
-    </el-row>
   </div>
 </template>
 
@@ -27,7 +15,8 @@ export default {
   },
   data () {
     return {
-      page: 'home'
+      page: '',
+      language: 'cn'
     }
   }
 }
@@ -91,11 +80,12 @@ body {
 }
 
 .contents:hover, .contents:focus,
-.QA .btn_QA,
-.staff .btn_staff,
-.work .btn_work,
+.home .btn_home,
 .intro .btn_intro,
-.home .btn_home {
+.work .btn_work,
+.staff .btn_staff,
+.QA .btn_QA,
+.shop .btn_shop {
   background-color: transparent;
   color: #ffffff!important;
   text-shadow: 0 0 10px #ffff00;
@@ -110,6 +100,19 @@ body {
 
 .header_menu {
   height: 100%;
+}
+
+.btn_language {
+  border: 0;
+  width: 100%;
+}
+
+.btn_language:focus {
+  text-shadow: none;
+}
+
+.btn_language:hover {
+  text-shadow: 0 0 10px #ffff00;
 }
 
 </style>

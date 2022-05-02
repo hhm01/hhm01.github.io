@@ -2,18 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2e51ff0-720a-4ffe-ae1f-3c78e1feeea7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/play_avg.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/play_rpg.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/QA_en.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home_en.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/intro_en.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/menu/img_顶部栏底.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/menu/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/play_avg_en.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/play_rpg_en.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/shop.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/shop_en.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/staff_en.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/work_en.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/QA.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/QA.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/intro.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/intro.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/play_avg.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/play_avg.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/play_rpg.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/play_rpg.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/staff.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/staff.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/work.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/work.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,18 +64,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages/QA" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\vue_project\hhm01.github.io\src\pages" />
+      <recent name="E:\vue_project\hhm01.github.io\src\pages\menu" />
       <recent name="E:\vue_project\hhm01.github.io\src\pages\QA" />
       <recent name="E:\vue_project\hhm01.github.io\src\pages\work" />
       <recent name="E:\vue_project\hhm01.github.io\src\pages\intro" />
-      <recent name="E:\vue_project\hhm01.github.io\src\assets\menu" />
-      <recent name="E:\vue_project\hhm01.github.io\src\pages\staff" />
     </key>
   </component>
   <component name="RunManager">
@@ -96,6 +118,7 @@
       <workItem from="1649076881414" duration="6539000" />
       <workItem from="1649243269150" duration="1642000" />
       <workItem from="1649327281239" duration="5205000" />
+      <workItem from="1651479657641" duration="10558000" />
     </task>
     <servers />
   </component>
