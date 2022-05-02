@@ -47,7 +47,7 @@ body {
 }
 
 .header_page {
-  background-image: url("./assets/menu/img_顶部栏底.png");
+  background-image: url("./pages/menu/img_顶部栏底.png");
   background-size: contain;
   background-repeat: repeat-x;
   padding: 0!important;
@@ -61,7 +61,7 @@ body {
 }
 
 .home_group_info {
-  background-image: url("./assets/menu/logo.png");
+  background-image: url("./pages/menu/logo.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 2vw;
